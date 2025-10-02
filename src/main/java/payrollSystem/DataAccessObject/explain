@@ -1,0 +1,3 @@
+EmployeeDAO / EmployeeDAOImpl   | Handles reading/writing employee data from/to file. CRUD operations for employees.
+
+PayrollRecord / PayrollRecordDAO / PayrollRecordDAOImpl  | Handles payroll records, storing net salary, deductions, allowances, and linking to employees.

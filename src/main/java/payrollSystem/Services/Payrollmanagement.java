@@ -1,5 +1,6 @@
 package payrollSystem.Services;
 
+import payrollSystem.DataAccessObject.PayrollRecordDAO;
 import payrollSystem.Enum.Department;
 import payrollSystem.Models.Employee;
 
@@ -8,7 +9,13 @@ import java.util.List;
 // Provides business logic for payroll operations calculates the payroll
 public class Payrollmanagement {
 
-                 //calculate the total of salaries
+    private final PayrollRecordDAO payrollDAO;
+
+    public Payrollmanagement(PayrollRecordDAO payrollDAO) {
+        this.payrollDAO = payrollDAO;
+    }
+
+    //calculate the total of salaries
     public double CalculateTotalPayroll(List<Employee> employees){
         double total = 0.0;
 //        loop through

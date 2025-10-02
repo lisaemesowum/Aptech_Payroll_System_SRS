@@ -27,7 +27,8 @@ public class EmployeeDAOImpl  implements EmployeeDAO {
       }
     }
 
-//    we need to read all the employees into a list find the employee matching id and update the details and rewrite the entire file with the updated file
+
+    //    we need to read all the employees into a list find the employee matching id and update the details and rewrite the entire file with the updated file
     @Override
     public void updateEmployee(Employee updatedEmployee) {
         List<Employee> employees = viewAllEmployees(); // step 1 full list because a CSV file cannot be edited line-by-line
@@ -55,6 +56,8 @@ public class EmployeeDAOImpl  implements EmployeeDAO {
         }
 
     }
+
+
 
     @Override
     public void deleteEmployee(String id) {

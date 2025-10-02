@@ -1,0 +1,2 @@
+PayrollManagement / PayrollServiceImpl
+Provides business logic like calculating total payroll, department payroll, generating reports, etc.

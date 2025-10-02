@@ -56,7 +56,7 @@ public class PayrollServiceImple implements PayrollRecordDAO {
     List<PayrollRecord> update = viewAllPayrollRecords();
     try(BufferedWriter writer = new BufferedWriter(new FileWriter(FILE_NAME))){
         for(PayrollRecord RC : update){
-            if(RC.getRecordId().equals(RC.getRecordId())){
+            if(RC.getRecordId().equals(record.getRecordId())){
                 RC = record;    // replace with updated record
             }
             writer.write(RC.getEmployeeId() + "," +

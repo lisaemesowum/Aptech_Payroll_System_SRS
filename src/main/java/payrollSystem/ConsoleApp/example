@@ -1,0 +1,12 @@
+The user interface menu-driven, lets HR staff interact with the system. It calls the other classes.
+
+The console app is the “brain” that coordinates everything.
+
+
+You need PayrollManagement here to:
+
+Calculate total payroll
+
+Generate department-wise payroll
+
+Produce reports that HR staff can see

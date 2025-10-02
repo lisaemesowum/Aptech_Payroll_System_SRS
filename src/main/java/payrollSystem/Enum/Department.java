@@ -1,4 +1,4 @@
-package payrollSystem.Models;
+package payrollSystem.Enum;
 
 public enum Department {
     HR,
